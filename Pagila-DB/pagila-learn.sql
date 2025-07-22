@@ -11,3 +11,10 @@ from film
 -- Exercise 02: return title and description of movies
 select fi.title as "título do filme", fi.description as "descrição do filme"
 from film as fi
+
+-- Exercise 03: return all clients with first name and last name
+select cst.first_name as "Primeiro nome", cst.last_name as "Último nome"
+from customer as cst
+
+
+
