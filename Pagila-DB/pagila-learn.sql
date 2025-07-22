@@ -34,5 +34,8 @@ from film as flm
 select count(*) as "Quantidade de atores"
 from actor as act
 
-
+-- Exercise 08: return first 10 results in table customer
+select *
+from customer as cst
+limit 10
 
