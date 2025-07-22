@@ -29,4 +29,8 @@ Os exercícios em questão foram resolvidos utilizando o banco de dados chamado 
 <img width="344" height="716" alt="image" src="https://github.com/user-attachments/assets/99c7ac18-ba71-4cd4-91ca-dad21e8f4e54" />
 
 --------------------------------------------------------------------------------------------------------
+# No arquivo do repositório contém as queries classificados de iniciante a avançado
+
+
+--------------------------------------------------------------------------------------------------------
 # Novas versões mais organizadas e refinadas estão em desenvolvimento e serão publicadas
