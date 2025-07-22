@@ -26,9 +26,13 @@ select flm.title as "Título do filme"
 from film as flm
 where flm.rating = 'PG';
 
+-- Exercise 06: return amount total of movies
+select count(*) as "Quantidade de filmes"
+from film as flm
 
-
-
+-- Exercise 07: return total of actors
+select count(*) as "Quantidade de atores"
+from actor as act
 
 
 
