@@ -45,6 +45,10 @@ from film as f inner join film_category as fc on f.film_id = fc.film_id
 inner join category as c on fc.category_id = c.category_id
 where c."name" = 'Comedy'
 
+-- Exercise 10: return names of employee
+select first_name as "primeiro nome", last_name as "último nome"
+from staff
+
 
 
 
