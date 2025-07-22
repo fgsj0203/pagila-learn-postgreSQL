@@ -39,3 +39,14 @@ select *
 from customer as cst
 limit 10
 
+-- Exercise 09: return all titles movie in category "comedy"
+select *
+from film as f inner join film_category as fc on f.film_id = fc.film_id
+inner join category as c on fc.category_id = c.category_id
+where c."name" = 'Comedy'
+
+
+
+
+
+
