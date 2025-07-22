@@ -21,3 +21,14 @@ select act.first_name as "Primeiro nome", act.last_name as "Último nome"
 from actor as act
 ORDER By act.first_name ASC
 
+-- Exercise 05: return titles of movies of rating is equal "PG"
+select flm.title as "Título do filme"
+from film as flm
+where flm.rating = 'PG';
+
+
+
+
+
+
+
