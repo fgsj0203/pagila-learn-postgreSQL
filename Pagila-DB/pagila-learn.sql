@@ -16,5 +16,8 @@ from film as fi
 select cst.first_name as "Primeiro nome", cst.last_name as "Último nome"
 from customer as cst
 
-
+-- Exercise 04: return names of all actors in order alphabetic
+select act.first_name as "Primeiro nome", act.last_name as "Último nome"
+from actor as act
+ORDER By act.first_name ASC
 
