@@ -61,6 +61,10 @@ select *
 from film as f
 where f.length > 100
 
+-- Exercise 13: return movies with classification "G" or "PG"
+select *
+from film as f
+where f.rating = 'G' or f.rating = 'PG'
 
 
 
