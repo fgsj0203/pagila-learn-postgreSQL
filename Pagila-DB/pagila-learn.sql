@@ -49,6 +49,20 @@ where c."name" = 'Comedy'
 select first_name as "primeiro nome", last_name as "último nome"
 from staff
 
+-- Exercise 11: return all customers of living in "Brazil"
+select *
+from customer as cst inner join address on cst.address_id = address.address_id
+inner join city as ci on ci.city_id = address.city_id
+inner join country as co on co.country_id = ci.country_id
+where co.country = 'Brazil';
+
+
+
+
+
+
+
+
 
 
 
