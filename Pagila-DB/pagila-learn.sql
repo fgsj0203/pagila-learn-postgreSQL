@@ -71,6 +71,10 @@ select *
 from customer as c
 where c.first_name LIKE 'A%'
 
+-- Exercise 15: return all customers with last name start "Smith"
+select *
+from customer as c
+where c.last_name = 'Smith'
 
 
 
