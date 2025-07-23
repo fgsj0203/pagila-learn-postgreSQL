@@ -66,6 +66,10 @@ select *
 from film as f
 where f.rating = 'G' or f.rating = 'PG'
 
+-- Exercise 14: return all customers the start name with letter "A"
+select *
+from customer as c
+where c.first_name LIKE 'A%'
 
 
 
