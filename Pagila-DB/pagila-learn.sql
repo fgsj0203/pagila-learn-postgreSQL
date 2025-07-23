@@ -76,6 +76,11 @@ select *
 from customer as c
 where c.last_name = 'Smith'
 
+-- Exercise 16: return movies with rental rate between 0.99 and 2.99
+select *
+from film as f
+where f.rental_rate >= 0.99 and f.rental_rate <= 2.99
+
 
 
 
