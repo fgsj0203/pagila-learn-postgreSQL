@@ -81,9 +81,15 @@ select *
 from film as f
 where f.rental_rate >= 0.99 and f.rental_rate <= 2.99
 
+-- Exercise 17: return all movies release after 2005
+select *
+from film as f
+where f.release_year > 2005
 
-
-
+-- Exercise 18: 
+select c.customer_id, c.first_name, c.last_name, ad.address
+from customer as c inner join address as ad on c.address_id = ad.address_id
+where ad.address LIKE '%Street%'
 
 
 
