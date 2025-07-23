@@ -56,7 +56,10 @@ inner join city as ci on ci.city_id = address.city_id
 inner join country as co on co.country_id = ci.country_id
 where co.country = 'Brazil';
 
-
+-- Exercise 12: 
+select *
+from film as f
+where f.length > 100
 
 
 
