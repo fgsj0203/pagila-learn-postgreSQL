@@ -15,5 +15,8 @@ select *
 from customer as c
 order by c.create_date, c.customer_id desc
 
-
-
+-- Exercise 24: return the ten movies most released
+select *
+from film as f
+order by f.last_update desc
+limit 10
