@@ -10,6 +10,10 @@ from film as f
 order by f.length ASC
 limit 10
 
+-- Exercise 23: return customers is most past 
+select *
+from customer as c
+order by c.create_date, c.customer_id desc
 
 
 
