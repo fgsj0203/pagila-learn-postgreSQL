@@ -91,10 +91,15 @@ select c.customer_id, c.first_name, c.last_name, ad.address
 from customer as c inner join address as ad on c.address_id = ad.address_id
 where ad.address LIKE '%Street%'
 
--- Exercise 19: return movies with cost of change bigger 20
+-- Exercise 19: return movies with cost of replacement bigger 20
 select *
 from film as f
 where f.replacement_cost > 20
+
+-- Exercise 20: return all data payments bigger 5.00
+select *
+from payment as p
+where p.amount > 5.00
 
 
 
