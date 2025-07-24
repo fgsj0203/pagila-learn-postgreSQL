@@ -14,3 +14,7 @@ group by c."name"
 -- Exercise 33: return value of all payments
 select sum(p.amount) as "Valor total dos pagamentos"
 from payment as p
+
+-- Exercise 34: return time average of movies
+select avg(f.length) as "Tempo Médio dos filmes"
+from film as f
