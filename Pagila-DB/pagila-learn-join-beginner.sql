@@ -12,4 +12,3 @@ inner join city as cy on cy.city_id = ad.city_id
 select f.title, ac.first_name as "Primeiro nome", ac.last_name as "Último nome"
 from actor as ac inner join film_actor as fa on ac.actor_id = fa.actor_id
 inner join film as f on f.film_id = fa.film_id
-
