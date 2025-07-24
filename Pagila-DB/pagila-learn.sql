@@ -86,10 +86,17 @@ select *
 from film as f
 where f.release_year > 2005
 
--- Exercise 18: 
+-- Exercise 18: return all address with value "Street"
 select c.customer_id, c.first_name, c.last_name, ad.address
 from customer as c inner join address as ad on c.address_id = ad.address_id
 where ad.address LIKE '%Street%'
+
+-- Exercise 19: return movies with cost of change bigger 20
+select *
+from film as f
+where f.replacement_cost > 20
+
+
 
 
 
