@@ -20,3 +20,16 @@ select *
 from film as f
 order by f.last_update desc
 limit 10
+
+-- Exercise 25: return all payments data based for value
+select *
+from payment as p
+order by p.amount asc
+
+
+
+
+
+
+
+
