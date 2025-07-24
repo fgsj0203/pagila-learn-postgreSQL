@@ -10,3 +10,7 @@ select COUNT(*) as "Quantidade de filmes na categoria", c."name"
 from film as f inner join film_category as fc on f.film_id = fc.film_id
 inner join category as c on c.category_id = fc.category_id
 group by c."name"
+
+-- Exercise 33: return value of all payments
+select sum(p.amount) as "Valor total dos pagamentos"
+from payment as p
