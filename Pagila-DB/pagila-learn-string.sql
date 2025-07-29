@@ -19,6 +19,20 @@ from city as c
 where length(c.city) > 10
 --------------------------------------------------------------
 
+-- Exercise 54: Converter names of customers in size bigger
+select upper(c.first_name) as "Primeiro nome", upper(c.last_name) as "Segundo nome"
+from customer as c
+
+
+
+
+
+
+
+
+
+
+
 
 
 
