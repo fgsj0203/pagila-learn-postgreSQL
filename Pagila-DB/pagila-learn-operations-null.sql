@@ -3,6 +3,7 @@ Author: Francisco Gomes da Silva Junior
 Date:29-07-2025, format Brazil
 Local: Recife-PE
 Version: 1.0
+Description: Queries solution using problems of fields columns if null or not null
 """
 
 -- Exercise 56: verify if values null in column "return_date"
