@@ -3,3 +3,9 @@ select *
 from customer as c
 where c.email IS NOT NULL
 -----------------------------------------------------------------
+
+-- Exercise 56: verify if values null in column "return_date"
+select *
+from rental as r
+where r.return_date IS NULL
+-----------------------------------------------------------------
