@@ -4,7 +4,7 @@
 Os exercícios em questão foram resolvidos utilizando o banco de dados chamado **Pagila** 
 
 ### Introdução
-- Banco de dados: https://github.com/devrimgunduz/pagila/tree/master
+- fonte oficial do banco de dados para a prática: https://github.com/devrimgunduz/pagila/tree/master
 - Data de lançamento do repositório: 22/07/2025
 - Versão: 1.0
 
