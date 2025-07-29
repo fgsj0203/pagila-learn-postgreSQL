@@ -20,6 +20,14 @@ from film as f inner join "language" as l on f.language_id = l.language_id
 where l."name" = 'English'
 ----------------------------------------------------------
 
+-- Exercise 63: return of sum minutes all movies
+select SUM(f.length) as "Total de todos os filmes in Minutes"
+from film as f
+
+
+
+
+
 
 
 
