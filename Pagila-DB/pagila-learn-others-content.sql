@@ -10,6 +10,16 @@ Description: Queries solutions of categories others, categorie of mixe content o
 select *, l."name"
 from film as f inner join "language" as l on f.language_id = l.language_id
 where l."name" = 'English'
+----------------------------------------------------------
+
+-- Exercise 61: return all languages of movies
+select l."name" as "All languages of movies"
+from "language" as l
+group by l."name"
+--(optional)
+order by l."name" asc -- Order values asceding using names
+
+
 
 
 
