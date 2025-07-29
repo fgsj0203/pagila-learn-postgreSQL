@@ -10,3 +10,8 @@ from customer as c
 where c.email IS NOT NULL
 -----------------------------------------------------------------
 
+-- Exercise 59: return movies with description column field blank or null
+select *
+from film as f
+where f.description is not null
+-----------------------------------------------------------------
