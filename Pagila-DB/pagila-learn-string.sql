@@ -13,6 +13,12 @@ from customer as c
 where c.last_name LIKE '%SON'
 --------------------------------------------------------------
 
+-- Exercise 53: return data of cities with size 10 characters
+select *
+from city as c
+where length(c.city) > 10
+--------------------------------------------------------------
+
 
 
 
