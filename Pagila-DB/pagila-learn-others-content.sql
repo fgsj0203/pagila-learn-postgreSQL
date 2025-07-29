@@ -23,12 +23,11 @@ where l."name" = 'English'
 -- Exercise 63: return of sum minutes all movies
 select SUM(f.length) as "Total de todos os filmes in Minutes"
 from film as f
+----------------------------------------------------------
 
-
-
-
-
-
+-- Exercise 64: return all ID's this is unique
+select distinct(c.category_id) as "Amount ID's differents"
+from film_category as fc INNER JOIN category as c ON c.category_id = fc.category_id
 
 
 
