@@ -28,9 +28,10 @@ from film as f
 -- Exercise 64: return all ID's this is unique
 select distinct(c.category_id) as "Amount ID's differents"
 from film_category as fc INNER JOIN category as c ON c.category_id = fc.category_id
+----------------------------------------------------------
 
-
-
-
-
-
+-- Exercise 68: return return all payments of client with ID 1
+select *
+from customer as c inner join payment as p on c.customer_id = p.customer_id
+where c.customer_id = 1
+----------------------------------------------------------
