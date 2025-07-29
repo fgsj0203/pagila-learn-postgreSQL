@@ -28,26 +28,3 @@ from customer as c
 select LOWER(f.title) as "Título do filme"
 from film as f
 --------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
