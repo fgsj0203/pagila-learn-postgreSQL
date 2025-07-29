@@ -19,12 +19,15 @@ from city as c
 where length(c.city) > 10
 --------------------------------------------------------------
 
--- Exercise 54: Converter names of customers in size bigger
+-- Exercise 54: Convert names of customers in size bigger
 select upper(c.first_name) as "Primeiro nome", upper(c.last_name) as "Segundo nome"
 from customer as c
+--------------------------------------------------------------
 
-
-
+-- Exercise 55: return titles of movies in letter lowercase
+select LOWER(f.title) as "Título do filme"
+from film as f
+--------------------------------------------------------------
 
 
 
